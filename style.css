@@ -14,8 +14,9 @@ html{
 body{
     height: 100vh;
     width: 100vw;
-    
-    background: linear-gradient(90deg, #ac80fa 0%, #fa689b 60%, #ac7ffa 100%);
+    /*background: linear-gradient(90deg, #ac80fa 0%, #fa689b 60%, #ac7ffa 100%);*/
+    background: linear-gradient(90deg, #e1d0ff 0%, #ffc5da 60%, #e1d0ff 100%);
+    /*background-color: #fff;*/
     display: flex;
     align-items: center;
     justify-content: space-around;
@@ -27,15 +28,16 @@ body{
     font-size: 4rem;
     font-family: 'Style+Script', sans-serif;
     margin-top: 5rem;
-    box-shadow: 0rem .2rem 2rem 3rem rgba(246, 118, 163, 0.9);
+    /*box-shadow: 0rem .2rem 2rem 3rem rgba(246, 118, 163, 0.9);*/
     border-radius: 2rem;
-    background:linear-gradient(90deg, #fa689b 0%, #b794f4 40%, #fa689b 100%);
+    /*background:linear-gradient(90deg, #fa689b 0%, #b794f4 40%, #fa689b 100%);*/
 }
 .music-container{
     height: 55rem;
     width: 35rem;
     
-    background-color: #fff;
+    /*background-color: #fff;*/
+    background: linear-gradient(90deg, #ac80fa 0%,  #fa689b  100%);
     border-radius: 2rem;
     box-shadow: 0rem 1rem 3rem 1rem rgba(0 ,0 ,0 ,0.3);
     text-align: center;
@@ -59,7 +61,7 @@ body{
     font-size: 1.4rem;
     word-spacing: 0.5rem;
     letter-spacing: 0.2rem;
-    color: #787676;
+    color: #272626a6;
     font-weight: 300;
     text-shadow: 0 .3rem .5rem rgba(0, 0, 0, 0.3);
     
@@ -139,7 +141,8 @@ body{
     width: 100%;
     border-radius: 1rem;
     position: relative;
-    box-shadow:  0 0.2rem 2rem 0.4rem rgba(0, 0, 0, 0.2);;
+    box-shadow:  0 0.2rem 2rem 0.4rem rgba(0, 0, 0, 0.2);
+    background-color: #fff;
 }
 .progress{
     position: absolute;
